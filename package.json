@@ -1,0 +1,9 @@
+{
+  "name": "chibi-arena-v61-online",
+  "version": "61.0.0",
+  "private": true,
+  "description": "Lobby WebSocket V61 pour Chibi Arena 2v2 - sans dépendance externe",
+  "main": "server.js",
+  "scripts": { "start": "node server.js" },
+  "engines": { "node": ">=18" }
+}

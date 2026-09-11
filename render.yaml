@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: chibi-arena-bebero-fd2ef3b2
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /health
+    autoDeployTrigger: commit
