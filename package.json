@@ -1,9 +1,13 @@
 {
-  "name": "chibi-arena-v62-online",
-  "version": "62.0.0",
+  "name": "chibi-fighter-v69-online",
+  "version": "69.0.0",
   "private": true,
-  "description": "Chibi Arena 2v2 V62 - combat online autoritaire sur Render",
+  "description": "Chibi Fighter Ultimate V69 - Arena 1v1 + Battleground 2-8 autoritaires sur Render",
   "main": "server.js",
-  "scripts": { "start": "node server.js" },
-  "engines": { "node": ">=18" }
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
 }
